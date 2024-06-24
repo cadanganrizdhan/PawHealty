@@ -1,80 +1,79 @@
 #Bookfix {
-    font-family: Hind-Vadodara, sans-serif;
-    background-image: url('../assets/bgbook.png');
-    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
-    background-position: center;
-  }
+  font-family: Hind-Vadodara, sans-serif;
+  background-image: url('../assets/bgbook.png');
+  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+  background-position: center;
+}
 
 .fix h5 {
-    margin-top: 100px;
-    font-size: 40px;
-    margin-bottom: 20px;
+  margin-top: 100px;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 
 .bookfix-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.227);
-    margin-right: 40px;
-  }
-  
-  .bookfix-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.227);
+  margin-right: 40px;
+}
 
-  .fix-right h5{
-    text-align: center;
-    font-size: 15px;
-  }
-  
-  .bookfix-left {
-    text-align: left;
-  }
-  
-  .bookfix-right {
-    background-color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.227);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .bookfix-right form {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
-  
-  .bookfix-right label {
-    margin-bottom: 10px;
-  }
-  
-  .bookfix-right input {
-    padding: 8px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
+.bookfix-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
 
-  .btnfix {
-    padding: 10px 10px; /* Padding di dalam tombol */
-    width: 20%;
-    border: none; /* Menghapus border default tombol */
-    border-radius: 5px; /* Membulatkan sudut */
-    background-color: #331B3B; /* Warna background tombol */
-    color: #fff; /* Warna teks tombol */
-    cursor: pointer; /* Mengubah cursor menjadi pointer */
-    font-size: 10px; /* Ukuran font tombol */
-    margin-right: -50px;
-  }
-  .btnfix:hover {
-    background-color: #e0b80e; /* Warna background tombol saat dihover */
-  }
-  
+.fix-right h5{
+  text-align: center;
+  font-size: 15px;
+}
+
+.bookfix-left {
+  text-align: left;
+}
+
+.bookfix-right {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.227);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bookfix-right form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.bookfix-right label {
+  margin-bottom: 10px;
+}
+
+.bookfix-right input {
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btnfix {
+  padding: 10px 10px; /* Padding di dalam tombol */
+  width: 20%;
+  border: none; /* Menghapus border default tombol */
+  border-radius: 5px; /* Membulatkan sudut */
+  background-color: #331B3B; /* Warna background tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+  font-size: 10px; /* Ukuran font tombol */
+  margin-right: -50px;
+}
+.btnfix:hover {
+  background-color: #e0b80e; /* Warna background tombol saat dihover */
+}

@@ -20,21 +20,21 @@ const Listdokter = () => {
     </section>
       <section id='card'>
       <div className="main-card">
-        <h1><b>Meet Our Veterinarian!</b></h1>
+        <h1 className='text-2xl pb-6'><b>Meet Our Veterinarian!</b></h1>
         <div className="card-container">
-          <div className="card">
+          <div className="card p-4">
             <img src={Dr1} alt="Veterinarian 1" />
-            <p><b>DRH. Sri January</b></p>
+            <p className='text-center py-3'><b>DRH. Sri January</b></p>
             <a href="Bookcal"><button className="btn">Learn More</button></a>
           </div>
-          <div className="card">
+          <div className="card p-4">
             <img src={Dr2} alt="Veterinarian 2" />
-            <p><b>DRH. Abiv Yanto</b></p>
+            <p className='text-center py-3'><b>DRH. Abiv Yanto</b></p>
             <button className="btn">Learn More</button>
           </div>
-          <div className="card">
+          <div className="card p-4">
             <img src={Dr3} alt="Veterinarian 3" />
-            <p><b>DRH. Yakti Novi</b></p>
+            <p className='text-center py-3'><b>DRH. Yakti Novi</b></p>
             <button className="btn">Learn More</button>
           </div>
         </div>

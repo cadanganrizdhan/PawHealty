@@ -1,9 +1,13 @@
-#Bookcal {
-  font-family: Hind-Vadodara, sans-serif;
-  background-image: url('../assets/bgbook.png');
-  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+#Bookcal {  
+  background-image: url('./assets/bgbook.png');
+  font-family: 'Hind-Vadodara', sans-serif;
+  background-size: cover;
   background-position: center;
-  }
+  height: 400px; /* Sesuaikan tinggi yang diinginkan */
+  max-height: 100vh; /* Membatasi tinggi maksimum hingga 100% dari tinggi viewport */
+  min-height: 200px; /* Tinggi minimum untuk menjaga aspek rasio */
+  width: 100%; /* Pastikan elemen mencakup lebar penuh */
+}
 
   .cal h5 {
     margin-top: 100px;

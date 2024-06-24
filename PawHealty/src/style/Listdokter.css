@@ -1,9 +1,9 @@
 #bio {
   background-image: url('../assets/navbar_bg.png');
   background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
-  background-position: center;
+  background-position: auto;
   display: flex;
-  height: 90vh;
+  height: 60vh;
 }
 
 .text h1{

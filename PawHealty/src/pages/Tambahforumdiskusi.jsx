@@ -32,6 +32,11 @@ const Tambahforumdiskusi = () => {
       <div>
         <NavbarAfter />
       </div>
+      <section id='tambah-forum-diskusi'>
+      <div className="tambah-forum-diskusi-text">
+        <h1><b>Discussion Forum</b></h1>
+      </div>
+    </section>
       <main>
         <div className="post-thread">
           <h2>Post Thread</h2>

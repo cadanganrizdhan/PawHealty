@@ -14,39 +14,41 @@ const Bookcal = () => {
     <div>
       <NavbarAfter/>
     </div>
-    <section id='Bookcal'>
-    <div className="cal">
-        <h5><b>Book Appointment</b></h5>
+    <section className="mt-[10rem] relative -left-5 mb-9">
+        <div className="book-container">
+          <div className="book-grid flex flex-col md:flex-row gap-9">
+            <div className="book-left">
+              <img src={Dr1} alt="" />
+              <p>
+                Rp. 50.000 <br />
+                <b>DRH. Sri January</b>
+                <br />
+                <span>
+                  <b>Practice schedule : </b>
+                </span>
+                08.00 - 20.00 <br />
+                <span>
+                  <b>Practice Place : </b>
+                </span>
+                Batam Centre <br />
+                <span>
+                  <b>Experience : </b>
+                </span>
+                5 years
+              </p>
+            </div>
+            <div className="book-right max-w-[40rem]">
+              <Calendar onChange={setDate} value={date} className="calendar" />
+              <a href="Booktime"><button className="btncal">Next</button></a>
+            </div>
+          </div>
         </div>
-      <div className="book-container">
-      <div className="book-grid">
-        <div className="book-left">
-          <img src={Dr1} alt="" />
-          <p>Rp. 50.000 <br />
-          <b>DRH. Sri January</b><br />
-          <span><b>Practice schedule : </b></span>08.00 - 20.00 <br />
-          <span><b>Practice Place : </b></span>Batam Centre <br />
-          <span><b>Experience : </b></span>5 years
-          </p>
-        </div>
-        <div className="book-right">
-          <Calendar
-            onChange={setDate}
-            value={date}
-            className="calendar"
-          />
-          <a href="Booktime"><button className="btncal">Next</button></a>
-        </div>
-        
-      </div>
-      
-    </div>
-    </section>
+      </section>
       <div>
-      <Footer/>
+        <Footer />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Bookcal
+export default Bookcal;

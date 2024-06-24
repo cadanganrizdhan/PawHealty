@@ -1,85 +1,83 @@
 #bio-blog {
-    background-image: url('../assets/bglist.png');
-    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
-    background-position: center;
-    display: flex;
-    height: 90vh;
-  }
+  background-image: url('../assets/bglist.png');
+  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+  background-position: auto;
+  display: flex;
+  height: 60vh;
+}
 /* src/CardSlider.css */
 .card-sliderb {
-    background-image: url('../assets/bglist1.png');
-    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .card-containerb {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px; /* Jarak antar grid item */
-    max-width: 800px; /* Atur lebar maksimal grid */
-  }
-  
-  .cardb {
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    width: 100%; /* Memenuhi seluruh kolom grid */
-    max-width: 250px; /* Atur lebar maksimal kartu */
-    height: 320px; /* Atur tinggi kartu */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    box-sizing: border-box;
-    overflow: hidden; /* Sembunyikan konten yang keluar dari batas kartu */
-    margin-top: 30px;
-  }
-  
-  .card-imgb {
-    object-fit: cover;
-  }
-  
-  .cardb h6 {
-    font-size: 15px;
-    max-width: 100%;
-    overflow: hidden;
-    font-weight: bold;
-  }
+  background-image: url('../assets/bglist1.png');
+  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .cardb h7 {
-    font-size: 12px;
-  }
-  
-  .cardb h8 {
-    font-size: 12px;
-    font-weight: bold;
-    margin-left: -155px;
-  }
+.card-containerb {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; /* Jarak antar grid item */
+  max-width: 800px; /* Atur lebar maksimal grid */
+}
 
-  .cardb h1, h8{
-    text-align: left;
-  }
+.cardb {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  width: 100%; /* Memenuhi seluruh kolom grid */
+  max-width: 250px; /* Atur lebar maksimal kartu */
+  height: 320px; /* Atur tinggi kartu */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow: hidden; /* Sembunyikan konten yang keluar dari batas kartu */    
+}
+
+.card-imgb {
+  object-fit: cover;
+}
+
+.cardb h6 {
+  font-size: 15px;
+  max-width: 100%;
+  overflow: hidden;
+  font-weight: bold;
+}
+
+.cardb h7 {
+  font-size: 12px;
+}
+
+.cardb h8 {
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: -155px;
+}
+
+.cardb h1, h8{
+  text-align: left;
+}
+
+.buttonsb {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.buttonsb button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
   
-  .buttonsb {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-  
-  .buttonsb button {
-    padding: 10px 20px;
-    margin: 0 10px;
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    
-  }
-  
-  .buttonsb button:hover {
-    background-color: #0056b3;
-  }
-  
+}
+
+.buttonsb button:hover {
+  background-color: #0056b3;
+}

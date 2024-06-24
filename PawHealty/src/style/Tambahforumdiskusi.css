@@ -1,3 +1,18 @@
+#tambah-forum-diskusi {
+    background-image: url('../assets/navbar_bg.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: auto;
+    display: flex;
+    height: 60vh;
+}
+  
+.tambah-forum-diskusi-text h1{
+    margin-top: 200px;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;

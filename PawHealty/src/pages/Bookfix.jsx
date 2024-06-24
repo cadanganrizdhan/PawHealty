@@ -65,54 +65,54 @@ const Bookfix = () => {
                 </div>
               <form onSubmit={handleSubmit}>
                 <label>
-                  Namae <br />
+                  Name <br />
                   <input type="text" name="name" placeholder='Full name'
-                  onChange={e => SetValues({...values, name: e.target.value})}/>
+                  onChange={e => SetValues({...values, name: e.target.value})} required />
                 </label>
                 <label>
                   No Phone: <br />
                   <input type="text" name="nophone" placeholder='No Phone' 
-                  onChange={e => SetValues({...values, nophone: e.target.value})}/>
+                  onChange={e => SetValues({...values, nophone: e.target.value})} required />
                 </label>
                 <label>
                   Email: <br />
                   <input type="email" name="email" placeholder='Email' 
-                  onChange={e => SetValues({...values, email: e.target.value})}/>
+                  onChange={e => SetValues({...values, email: e.target.value})} required />
                 </label>
                 <label>
                   Pet type: <br />
                   <input type="text" name="type" placeholder='Pet Type'
-                  onChange={e => SetValues({...values, type: e.target.value})}/>
+                  onChange={e => SetValues({...values, type: e.target.value})} required />
                 </label>
                 <label>
                   Pet name: <br />
                   <input type="text" name="namepet" placeholder='Pet Name'
-                  onChange={e => SetValues({...values, namepet: e.target.value})}/>
+                  onChange={e => SetValues({...values, namepet: e.target.value})} required />
                 </label>
                 <label>
                   Pet Gender: <br />
                   <input type="text" name="gender" placeholder='Pet Gender'
-                  onChange={e => SetValues({...values, gender: e.target.value})}/>
+                  onChange={e => SetValues({...values, gender: e.target.value})} required />
                 </label>
                 <label>
-                  Ras: <br />
+                  Breeds: <br />
                   <input type="text" name="ras" placeholder='Ras'
-                  onChange={e => SetValues({...values, ras: e.target.value})}/>
+                  onChange={e => SetValues({...values, ras: e.target.value})} required />
                 </label>
                 <label>
                   Age: <br />
                   <input type="text" name="age" placeholder='Pet Age'
-                  onChange={e => SetValues({...values, age: e.target.value})}/>
+                  onChange={e => SetValues({...values, age: e.target.value})} required />
                 </label>
                 <label>
                   Weight: <br />
                   <input type="text" name="weight" placeholder='Weight'
-                  onChange={e => SetValues({...values, weight: e.target.value})}/>
+                  onChange={e => SetValues({...values, weight: e.target.value})} required />
                 </label>
                 <label>
                   Complaint: <br />
                   <input type="text" name="complaint" placeholder='Complaint' 
-                  onChange={e => SetValues({...values, complaint: e.target.value})}/>
+                  onChange={e => SetValues({...values, complaint: e.target.value})} required />
                 </label>
                 <button className="btnfix">Submit</button>
               </form>
