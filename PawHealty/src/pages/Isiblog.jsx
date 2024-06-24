@@ -1,7 +1,6 @@
 import React from 'react'
-import Navbar from '../components/Navbar.jsx'
+import Navbarw from '../components/Navbarw.jsx'
 import Footer from '../components/Footer.jsx'
-import '../style/Isiblog.css'
 import logo from '../assets/blog1.png'
 import logo1 from '../assets/search.png'
 import logo2 from '../assets/list1.png'
@@ -9,13 +8,22 @@ import logo3 from '../assets/list2.png'
 import logo4 from '../assets/list4.png'
 import logo5 from '../assets/list5.png'
 import logo6 from '../assets/list6.png'
+import '../style/Isiblog.css'
 
 const Isiblog = () => {
   return (
     <>
     <div>
-      <Navbar/>
+      <Navbarw/>
     </div>
+    <section id="bio-blog">
+        <div className="text">
+          <h1>
+            <b>Blog</b>
+          </h1>
+          <p>All About Your Pet</p>
+        </div>
+    </section>
     <div className="article-page">
         <div className="content">
             <h1>MAKANAN BERBAHAYA UNTUK HEWAN PELIHARAAN</h1>
@@ -30,7 +38,6 @@ const Isiblog = () => {
             Mengenali makanan berbahaya bagi hewan peliharaan adalah langkah pertama dalam menjaga kesehatan mereka. Selain makanan yang sudah disebutkan sebelumnya, seperti cokelat, alpukat, bawang, dan anggur, ada beberapa bahan makanan dan bahan kimia rumah tangga lainnya yang juga perlu dihindari. Misalnya, xylitol, sebuah pengganti gula yang sering ditemukan dalam permen karet dan produk manis lainnya, menyebabkan penurunan gula darah dan kerusakan hati pada hewan peliharaan jika mereka mengonsumsinya. Pemilik hewan harus selalu membaca label makanan dengan cermat dan menyimpan makanan dan produk rumah tangga yang berbahaya di tempat yang tidak dapat dijangkau oleh hewan peliharaan. Dengan meningkatkan kesadaran tentang makanan dan bahan berbahaya ini, kita dapat membantu menjaga kesehatan dan kebahagiaan hewan peliharaan kita.
             </p>
         </div>
-
         <aside className="sidebar">
             <div className="search-container">
                 <input type="text" placeholder="Search" />
@@ -74,7 +81,7 @@ const Isiblog = () => {
                 </div>
             </div>
         </aside>
-      </div>
+    </div>
       <div>
       <Footer/>
       </div>

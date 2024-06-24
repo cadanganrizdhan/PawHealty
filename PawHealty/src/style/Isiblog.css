@@ -1,9 +1,9 @@
 #bio-blog {
     background-image: url('../assets/bglist.png');
     background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
-    background-position: center;
+    background-position: auto;
     display: flex;
-    height: 90vh;
+    height: 60vh;
   }
   
 #Isiblog {
@@ -18,7 +18,7 @@
     background-image: url('../assets/bglist1.png');
     background-size: cover;
     background-position: center;
-    margin-top: 80px;
+    margin-top: auto;
     display: flex;
     max-width: 100%;
     padding: 20px;
@@ -29,9 +29,16 @@
     flex: 3;
     padding-right: 20px;
 }
-h1 {
-    font-size: 32px;
+
+.content h1 {
+    font-size: 40px;
+    font-weight: bold;
     margin-bottom: 20px;
+}
+h1 {
+    font-size: 20px;
+    margin-bottom: 200px;
+    font-weight: 100;
 }
 .article-image {
     width: 100%;
