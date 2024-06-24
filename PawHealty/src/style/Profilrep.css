@@ -1,0 +1,67 @@
+#profil-rep-bio {
+    background-image: url('../assets/navbar_bg.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: center;
+    display: flex;
+    height: 90vh;
+  }
+  
+  .profil-rep-text h1{
+    margin-top: 200px;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+  }
+  
+  #profil-post-bio {
+    display: flex;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+#profil-post-bio .text-post {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#profil-post-bio img {
+    max-width: 30px; /* Sesuaikan ukuran gambar */
+    height: auto;
+    border-radius: 8px; /* Opsional: untuk memberi efek border-radius pada gambar */
+}
+
+.text-post h1{
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.text-post p {
+  margin-left: -183px;
+  margin-top: 25px;
+}
+
+.post-actions {
+  gap: 10px;
+  margin-top: 50px;
+  margin-left: -540px;
+  
+}
+
+.under5 {
+  display: inline-block; /* Agar elemen mengikuti ukuran konten */
+  position: relative; /* Untuk mengatur elemen pseudo di dalamnya */
+  line-height: 1.5; /* Sesuaikan sesuai kebutuhan */
+  padding-bottom: 5px;
+  
+}
+
+.under5::after {
+  content: ''; /* Pseudo-element tidak menampilkan konten */
+  position: absolute; /* Agar bisa diatur posisinya secara relatif terhadap .under4 */
+  bottom: -8px; /* Letakkan di bawah teks, sesuaikan dengan tinggi garis bawah */
+  width: 190vh; /* Sesuaikan lebar garis bawah */
+  margin-left: -70px;
+  height: 1px; /* Ketebalan garis */
+  background-color: rgb(0, 0, 0); /* Warna garis */
+}

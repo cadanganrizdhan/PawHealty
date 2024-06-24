@@ -1,0 +1,171 @@
+#Profil {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.profile-menu {
+  margin-top: 80px;
+  margin-left: 80px;
+  padding: 20px;
+  width: 300px;
+  display: flex;
+  align-items: left;
+  width: 80%;
+  height: 100%;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Menyebarkan elemen secara merata */
+  margin-bottom: 20px;
+  width: 100%; /* Memastikan elemen mengambil seluruh lebar kontainer */
+}
+
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Mengambil sisa ruang yang tersedia */
+}
+
+.profile-name {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.profile-email,
+.profile-join-date,
+.profile-posts {
+  margin: 5px 0;
+  color: #555;
+}
+
+.edit-profile-button {
+  width: 150px; /* Lebar tombol */
+  height: 40px; /* Tinggi tombol */
+  border: none; /* Menghapus border default tombol */
+  border-radius: 5px; /* Membulatkan sudut */
+  background-color: #331b3b; /* Warna background tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+  font-size: 1em; /* Ukuran font tombol */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.edit-profile-button:hover {
+  background-color: #e0b80e;
+}
+
+.profil-container {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  margin-top: -100px;
+}
+
+.profil-container::after {
+  content: "";
+  position: absolute;
+  bottom: 12px;
+  left: 50%; /* Agar garis tengah */
+  transform: translateX(-50%); /* Agar garis berada di tengah */
+  width: 90%; /* Atur panjang garis di sini */
+  border-bottom: 2px solid rgba(0, 0, 0, 0.836); /* Ketebalan dan warna garis bawah */
+}
+
+.profil-list-item {
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.profil-list-item:hover {
+  color: #007bff;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.modal-body {
+  margin-bottom: 20px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #331b3b;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 5px 10px !important;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

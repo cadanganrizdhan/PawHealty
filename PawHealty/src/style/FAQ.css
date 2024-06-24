@@ -1,0 +1,103 @@
+#faq-container {
+  background-image: url('../assets/bgfaq.png');
+  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+  background-position: center;
+  display: flex;
+}
+
+.faq-left{
+  width: 55%;
+}
+
+.faq-right {
+  width: 33%;
+  margin-top: 100px;
+  margin-bottom: -30px;
+}
+
+.text-faq {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* Styling untuk setiap item FAQ */
+.faq-item {
+  margin-bottom: 40px;
+}
+
+.faq-item h1 {
+  font-size: 20px;
+}
+/* Styling untuk jawaban */
+.answer {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+/* Styling untuk panah */
+.arrow {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1;
+}
+
+/* Panah ke bawah */
+.down:before {
+  content: '+';
+}
+
+/* Panah ke atas */
+.up:before {
+  content: '-';
+}
+
+.faq-form {
+  display: grid; /* Menggunakan grid layout */
+  grid-template-columns: 1fr; /* Satu kolom */
+  gap: 20px; /* Jarak antar elemen */
+  padding: 50px;
+  background-color: transparent;
+  max-width: 800px; /* Lebar maksimum grid */
+  margin: 0 auto; /* Agar berada di tengah-tengah */
+}
+
+.faq-form h2 {
+  text-align: center; /* Menempatkan judul di tengah */
+  margin-bottom: 20px; /* Memberikan jarak di bawah judul */
+}
+
+.faq-form form {
+  display: grid; /* Menggunakan grid layout untuk form */
+  grid-template-columns: 1fr; /* Satu kolom */
+  gap: 15px; /* Jarak antar inputan */
+}
+
+.faq-form input[type="text"],
+.faq-form input[type="email"],
+.faq-form input[type="message"] {
+  padding: 10px; /* Padding di dalam inputan */
+  border: 1px solid #ccc; /* Warna border inputan */
+  border-radius: 5px; /* Membulatkan sudut */
+  width: 100%; /* Lebar penuh */
+}
+
+.faq-form input[type="message"] {
+  height: 150px; /* Tinggi untuk input pesan */
+}
+
+.faq-form button {
+  padding: 15px 15px; /* Padding di dalam tombol */
+  width: 30%;
+  border: none; /* Menghapus border default tombol */
+  border-radius: 5px; /* Membulatkan sudut */
+  background-color: #331B3B; /* Warna background tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+  font-size: 12px; /* Ukuran font tombol */
+  justify-self: end;
+}
+
+/* Menambahkan hover effect pada tombol */
+.faq-form button:hover {
+  background-color: #e0b80e; /* Warna background tombol saat dihover */
+}

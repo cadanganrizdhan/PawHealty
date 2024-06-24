@@ -1,0 +1,51 @@
+#bio {
+  background-image: url('../assets/navbar_bg.png');
+  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+  background-position: center;
+  display: flex;
+  height: 90vh;
+}
+
+.text h1{
+  margin-top: 200px;
+  text-align: left;
+  font-size: 50px;
+  color: white;
+}
+
+.text p{
+  margin-top: -20px;
+  font-size: 30px;
+  color: white;
+}
+
+#home {
+  background-image: url('../assets/navbar_bg.png');
+  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+  background-position: center;
+  display: flex;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+.home-right {
+      display: flex;
+      justify-content: flex-end; /* Mengatur posisi konten ke kanan */
+      } 
+
+.home-left {
+  margin-top: 80px;
+}
+  
+.home-right img{
+          width: 400px;
+          margin-top: -360px;
+  }
+
+section {
+  padding-left: 3rem;
+  padding-bottom: 5rem;
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('assets/bg_form.png');
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    padding: 30px;
+}
+
+.post-thread {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.post-thread h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.post-thread input[type="text"],
+.post-thread textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post-thread textarea {
+    height: 200px;
+    resize: none;
+}
+
+.post-thread .buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.post-thread button {
+    padding: 10px 20px;
+    border: none;
+    border: 1px solid black;
+    background: #4A235A;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

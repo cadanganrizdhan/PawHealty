@@ -1,0 +1,14 @@
+#profil-app-bio {
+    background-image: url('../assets/navbar_bg.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: center;
+    display: flex;
+    height: 90vh;
+  }
+  
+  .profil-app-text h1{
+    margin-top: 200px;
+    text-align: left;
+    font-size: 50px;
+    color: white;
+  }

@@ -1,0 +1,97 @@
+#bio-blog {
+    background-image: url('../assets/bglist.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: center;
+    display: flex;
+    height: 90vh;
+  }
+  
+#Isiblog {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/bglist1.png');
+    background-size: cover;
+    background-position: center;
+}
+.article-page {
+    background-image: url('../assets/bglist1.png');
+    background-size: cover;
+    background-position: center;
+    margin-top: 80px;
+    display: flex;
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.content {
+    flex: 3;
+    padding-right: 20px;
+}
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.article-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: justify;
+    color: #333;
+}
+.sidebar {
+    flex: 1;
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+.search-container input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+}
+.search-button {
+    background: #0000;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+.search-button img {
+    width: 16px;
+    height: 16px;
+}
+.sidebar-articles {
+    margin-top: 20px;
+}
+.sidebar-articles h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.sidebar-article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sidebar-article img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    border-radius: 8px;
+}
+.sidebar-article p {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+}

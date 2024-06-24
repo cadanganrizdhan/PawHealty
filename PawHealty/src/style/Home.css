@@ -1,0 +1,399 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+#BERANDA {
+  height: 720px;
+  align-items: center;
+  margin-left: 2rem;
+  background: url('../assets/background1.png') no-repeat top center;
+  background-size: cover;
+  padding: 50px 0;
+}
+
+.home-left img{
+  margin-top: 80px;
+  width: 530px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding-left: 3rem;
+  padding-bottom: 5rem;
+}
+
+.btn1 {
+  margin-top: 20px;
+  padding: 15px 15px; /* Padding di dalam tombol */
+  width: 10%;
+  border: none; /* Menghapus border default tombol */
+  border-radius: 5px; /* Membulatkan sudut */
+  background-color: #331B3B; /* Warna background tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+  font-size: 10px; /* Ukuran font tombol */
+  justify-self: end;
+}
+.btn1:hover {
+  background-color: #e0b80e; /* Warna background tombol saat dihover */
+}
+
+.btn3 {
+  padding: 15px 15px; /* Padding di dalam tombol */
+  width: 20%;
+  border: none; /* Menghapus border default tombol */
+  border-radius: 5px; /* Membulatkan sudut */
+  background-color: #331B3B; /* Warna background tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+  font-size: 12px; /* Ukuran font tombol */
+  justify-self: end;
+}
+.btn3:hover {
+  background-color: #e0b80e; /* Warna background tombol saat dihover */
+}
+
+
+#Grid {
+  background-image: url('../assets/background2.png'); /* Ganti 'gambar.jpg' dengan URL atau path ke gambar yang ingin Anda gunakan */
+  background-size: cover; /* Untuk memastikan gambar meliputi seluruh area latar belakang */
+  background-position: center;
+}
+
+.text-grid {
+text-align: center;
+}
+
+.text-grid h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.text-grid p {
+  font-size: 40px;
+  margin-top: -20px;
+  text-align: center;
+}
+
+.grid-left {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-left: 50px;
+  margin-bottom: -10px;
+}
+
+.grid-left img {
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 kolom */
+  column-gap: 50px; /* Jarak antar grid */
+  row-gap: 30px;
+  padding: 20px;
+  justify-content: center; /* Untuk mengatur posisi horizontal ke tengah */
+}
+
+.grid-item {
+  background-color: #ffff;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  text-align: left;
+  padding: 20px;
+}
+.grid-item h4{
+  font-weight: bold;
+}
+.under1 {
+  border-bottom: 8px solid #FDC221; /* Ketebalan dan warna garis bawah */
+  display: inline-block; /* Agar elemen span mengikuti ukuran konten */
+  line-height: .5;
+}
+#Easy {
+  background-color: white;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+  
+.easy-left {
+      display: flex;
+      justify-content: flex-end; /* Mengatur posisi konten ke kanan */
+      } 
+.easy-right {
+  margin-left: 50px;
+}
+
+.easy-right h1{
+  font-size: 50px;
+}
+.easy-right h4{
+  margin-top: -20px;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.easy-right p {
+  margin-bottom: 50px;
+}
+
+.under2 {
+  border-bottom: 8px solid #FDC221; /* Ketebalan dan warna garis bawah */
+  display: inline-block; /* Agar elemen span mengikuti ukuran konten */
+  line-height: .2;
+} 
+
+
+/* Mengatur container utama */
+.emaile {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+/* Mengatur container untuk kartu-kartu */
+.sende {
+  display: flex;
+  gap: 100px;
+}
+
+/* Mengatur masing-masing kartu */
+.sendemail {
+  display: flex; /* Menyusun elemen dalam satu baris */
+  align-items: center; /* Menyelaraskan elemen secara vertikal di tengah */
+  background-color: white;
+  border: 1px solid rgba(228, 228, 228, 0.596);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgb(179, 179, 179);
+  width: 300px;
+}
+
+/* Mengatur gambar */
+.sendemail img {
+  max-width: 100px; /* Ukuran maksimum gambar */
+  margin-right: 10px; /* Jarak antara gambar dan teks */
+}
+
+
+.blog-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.blog-left {
+  flex: 1;
+  text-align: left; /* Memastikan teks berada di sebelah kiri */
+}
+
+.blog-right {
+  flex: 2;
+  text-align: left; /* Memastikan teks berada di sebelah kiri */
+}
+
+.blog-left h1 {
+  margin-left: 50px;
+  font-size: 2em; /* Ukuran font untuk judul blog */
+
+}
+
+.blog-right p {
+  margin-left: -30px;
+  padding-left: 300px; /* Memberikan sedikit jarak antara kiri dan paragraf */
+  font-size: 1em; /* Ukuran font untuk paragraf */
+}
+
+#Card {
+  background-image: url('../assets/bgblok.png');
+  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+  background-position: center; /* Mengatur posisi gambar agar berada di tengah */
+}
+
+.card-container-blog {
+  margin-bottom: -120px;
+  display: grid;
+  grid-gap: 16px; /* Jarak antar item grid */
+  grid-auto-flow: column; /* Mengatur grid agar mengalir secara horizontal */
+  grid-auto-columns: minmax(250px, 1fr); /* Menentukan lebar minimal dan maksimal item grid */
+  
+}
+
+.card-item-blog {
+  background-color: #fff;
+  color: black;
+  padding: 16px;
+  border-radius: 8px;
+  text-align: center;
+  white-space: normal; /* Mencegah teks tidak membungkus */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-item-blog img {
+  max-width: 100%; /* Mengatur gambar agar tidak melampaui batas item grid */
+  border-radius: 4px;
+}
+
+.card-item-blog h4 {
+  margin-left: 10px;
+  flex: 1;
+  text-align: left;
+}
+
+.card-item-blog p {
+  font-size: 12px;
+  margin-top: -10px;
+  margin-left: 10px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.blog-text {
+  display: flex;
+  align-items: center; /* Sejajarkan elemen secara vertikal */
+  gap: 10px;           /* Menambahkan jarak antara elemen */
+}
+
+.btn2 {
+  padding: 8px;
+  font-size: 12px;
+  color: black;
+  background: white;
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+.send{
+  margin-left: 150px;
+  margin-right: 50px;
+  margin-bottom: 200px;
+}
+
+.send-container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Mengatur container form */
+.form-container {
+  display: grid; /* Menggunakan grid layout */
+  grid-template-columns: 1fr; /* Satu kolom */
+  gap: 20px; /* Jarak antar elemen */
+  padding: 50px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: -10px -10px 0 #FDC021;
+  max-width: 800px; /* Lebar maksimum grid */
+  margin: 0 auto; /* Agar berada di tengah-tengah */
+}
+
+.form-container h2 {
+  text-align: center; /* Menempatkan judul di tengah */
+  margin-bottom: 20px; /* Memberikan jarak di bawah judul */
+}
+
+.form-container form {
+  display: grid; /* Menggunakan grid layout untuk form */
+  grid-template-columns: 1fr; /* Satu kolom */
+  gap: 15px; /* Jarak antar inputan */
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="message"] {
+  padding: 10px; /* Padding di dalam inputan */
+  border: 1px solid #ccc; /* Warna border inputan */
+  border-radius: 5px; /* Membulatkan sudut */
+  width: 100%; /* Lebar penuh */
+}
+
+.form-container input[type="message"] {
+  height: 150px; /* Tinggi untuk input pesan */
+}
+
+.form-container button {
+  padding: 15px 15px; /* Padding di dalam tombol */
+  width: 30%;
+  border: none; /* Menghapus border default tombol */
+  border-radius: 5px; /* Membulatkan sudut */
+  background-color: #331B3B; /* Warna background tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+  font-size: 12px; /* Ukuran font tombol */
+  justify-self: end;
+}
+
+/* Menambahkan hover effect pada tombol */
+.form-container button:hover {
+  background-color: #e0b80e; /* Warna background tombol saat dihover */
+}
+
+
+.text-container{
+  margin-top: 80px;
+  margin-left: 20px;
+  flex: 2;
+}
+
+.text-container h1{
+  font-size: 40px;
+}
+.text-container h7{
+  font-size: 25px;
+}
+
+.text-container p {
+font-size: 15px;
+  margin-bottom: 50px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+.under3 {
+  border-bottom: 8px solid #FDC221; /* Ketebalan dan warna garis bawah */
+  display: inline-block; /* Agar elemen span mengikuti ukuran konten */
+  line-height: .3;
+} 
+
+.under4 {
+  display: inline-block; /* Agar elemen mengikuti ukuran konten */
+  position: relative; /* Untuk mengatur elemen pseudo di dalamnya */
+  line-height: 1.5; /* Sesuaikan sesuai kebutuhan */
+  padding-bottom: 5px;
+  padding-right: 70px;
+}
+
+.under4::after {
+  content: ''; /* Pseudo-element tidak menampilkan konten */
+  position: absolute; /* Agar bisa diatur posisinya secara relatif terhadap .under4 */
+  right: 0; /* Mulai dari kanan */
+  bottom: -8px; /* Letakkan di bawah teks, sesuaikan dengan tinggi garis bawah */
+  width: 75%; /* Sesuaikan lebar garis bawah */
+  height: 8px; /* Ketebalan garis */
+  background-color: #FDC221; /* Warna garis */
+}

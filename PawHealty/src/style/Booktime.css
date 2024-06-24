@@ -1,0 +1,106 @@
+#Booktime {
+  font-family: Arial, sans-serif;
+  background-image: url('../assets/bgbook.png');
+  background-size: cover;
+  background-position: center;
+}
+.time h5 {
+  margin-top: 100px;
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.time-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.time-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: 10px;
+}
+
+.time-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-left img {
+  width: 200px;
+  height: 200px;
+}
+
+.time-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.time-right .react-time-picker {
+  width: 100%;
+  max-width: none;
+}
+
+.react-time-picker {
+  width: 100%;
+  border: none;
+}
+
+.react-time-picker__wrapper {
+  display: flex;
+  font-size: 24px; /* Perbesar ukuran font */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: space-around; /* Tambahkan space-around untuk memberi jarak antar elemen */
+}
+
+.react-time-picker__inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Pastikan ada ruang di antara input */
+}
+
+.react-time-picker__inputGroup__input {
+  height: 40px;
+  width: 60px; /* Perbesar lebar input untuk memberi lebih banyak ruang */
+  font-size: 24px; /* Perbesar ukuran font input */
+  padding: 0 10px; /* Tambahkan padding di kiri dan kanan */
+  text-align: center; /* Pusatkan teks */
+}
+
+.react-time-picker__inputGroup__divider {
+  padding: 0 10px; /* Perbesar padding divider untuk memberi lebih banyak ruang */
+  font-size: 24px; /* Perbesar ukuran font divider */
+}
+
+p {
+  margin-top: 10px;
+}
+
+.btntime {
+  padding: 15px 15px; /* Padding di dalam tombol */
+  width: auto; /* Lebar menyesuaikan dengan konten */
+  max-width: 50%; /* Lebar maksimum tombol */
+  border: none; /* Menghapus border default tombol */
+  border-radius: 5px; /* Membulatkan sudut */
+  background-color: #331B3B; /* Warna background tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+  font-size: 10px; /* Ukuran font tombol */
+}
+.btntime:hover {
+  background-color: #e0b80e; /* Warna background tombol saat dihover */
+}

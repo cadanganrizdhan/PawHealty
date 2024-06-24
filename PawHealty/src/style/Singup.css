@@ -1,0 +1,138 @@
+/* singup.css */
+#Singup{
+    background-image: url('../assets/login.png');
+    background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+    background-position: center;
+}
+
+/* Login.css */
+.singup-container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the singup grid to the right */
+    align-items: center;
+    height: 100vh;
+    padding-right: 3rem; /* Add some padding to the right */
+  }
+  
+  .settings {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .settings label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .settings input {
+    padding: 0.25rem;
+    margin-left: 0.5rem;
+  }
+  
+  .singup-grid {
+    display: grid;
+    gap: 1rem;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #D4EDFF;
+    grid-template-areas:
+      "title"
+      "email"
+      "password"
+      "button"
+      "google"
+      "signup";
+    transition: width 0.3s, height 0.3s; /* Smooth transition for size changes */
+  }
+  
+  .singup-title {
+    grid-area: title;
+  }
+
+  .singup-title h1{
+    font-size: 40px;
+  }
+
+  .singup-title p {
+    font-size: 15px;
+  }
+
+
+  .singup-title h1, p {
+    text-align: center;
+    align-items: center;
+  }
+
+  .singup-title img{
+    width: 30px;
+    height: 30px;
+    margin-left: 100px;
+  }
+  
+  .singup-email,
+  .singup-password,
+  .singup-nama,
+  .singup-Confirmation {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .singup-email label,
+  .singup-password label,
+  .singup-nama label,
+  .singup-Confirmation label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .singup-email input,
+  .singup-password input,
+  .singup-nama input,
+  .singup-Confirmation input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .singup-button {
+    text-align: center;
+  }
+  
+  .singup-button button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .singup-google {
+    text-align: center;
+  }
+  
+  .google-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #db4437;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .singup-signup {
+    text-align: center;
+  }
+  
+  .singup-signup a {
+    color: #007BFF;
+    text-decoration: none;
+  }
+  
+  .singup-signup a:hover {
+    text-decoration: underline;
+  }
+  

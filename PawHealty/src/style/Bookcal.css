@@ -1,0 +1,71 @@
+#Bookcal {
+  font-family: Hind-Vadodara, sans-serif;
+  background-image: url('../assets/bgbook.png');
+  background-size: cover; /* Mengatur gambar agar mencakup seluruh area kontainer */
+  background-position: center;
+  }
+
+  .cal h5 {
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+  
+  .book-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: .45fr .55fr;
+    align-items: start;
+    background-color: white;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .book-left img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .book-right .react-calendar {
+    width: 100%;
+    max-width: none;
+    border: 1px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-calendar {
+    width: 100%;
+    border: none;
+  }
+  
+  .book-left p {
+    margin-top: 10px;
+  }
+
+  .btncal {
+    margin-top: 30px;
+    margin-left: 360px;
+    padding: 15px 15px; /* Padding di dalam tombol */
+    width: 30%;
+    border: none; /* Menghapus border default tombol */
+    border-radius: 5px; /* Membulatkan sudut */
+    background-color: #331B3B; /* Warna background tombol */
+    color: #fff; /* Warna teks tombol */
+    cursor: pointer; /* Mengubah cursor menjadi pointer */
+    font-size: 10px; /* Ukuran font tombol */
+  }
+  .btncal:hover {
+    background-color: #e0b80e; /* Warna background tombol saat dihover */
+  }

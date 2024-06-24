@@ -1,0 +1,129 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  z-index: 100;
+}
+
+.menu {
+  float: right;
+}
+
+.logo {
+  display: flex;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 1.5rem;
+}
+
+nav ul {
+  margin-right: 10px;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+}
+
+nav ul li {
+  position: relative;
+  margin-top: -30px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  transition: .3s;
+}
+
+nav ul li a:hover {
+  color: #F40F00;
+}
+
+nav ul li img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.btnnav {
+  padding: 15px 15px; /* Padding di dalam tombol */
+  width: 20%;
+  border: none; /* Menghapus border default tombol */
+  border-radius: 5px; /* Membulatkan sudut */
+  background-color: #331B3B; /* Warna background tombol */
+  color: #fff; /* Warna teks tombol */
+  cursor: pointer; /* Mengubah cursor menjadi pointer */
+  font-size: 10px; /* Ukuran font tombol */
+  justify-self: end;
+}
+.btnnav:hover {
+  background-color: #e0b80e; /* Warna background tombol saat dihover */
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: transparent;
+  padding: 20px 0;
+  z-index: 1000;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.navbar.fixed ul li {
+  margin-top: -35px;
+  margin-bottom: 10px;
+}
+
+.navbar.fixed img {
+  margin-top: 10px;
+}
+
+.navbar.fixed {
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px 0;
+  z-index: 1000;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 9999; /* Ensure dropdown is above everything else */
+  display: none;
+}
+
+.dropdown li {
+  margin-top: 0;
+}
+
+.dropdown li a {
+  padding: 12px 16px;
+  display: block;
+  white-space: nowrap;
+  color: black;
+}
+
+nav ul li:hover .dropdown {
+  display: block;
+}
+.navbar.fixed .dropdown {
+  top: 45px; 
+  padding: 12px 12px;
+  color: black;
+}
+
+.dropdown {
+  background-color: white; /* Ensure dropdown has a solid background */
+}
