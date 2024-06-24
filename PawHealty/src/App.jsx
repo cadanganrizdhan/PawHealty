@@ -4,7 +4,7 @@ import Aboutus from "./pages/Aboutus";
 import AboutusAfter from "./pages/AboutusAfter";
 import Listdokter from "./pages/Listdokter";
 import Singup from "./pages/Singup";
-import Forumdiskusi from "./pages/Forumdiskus";
+import Forumdiskusi from "./pages/Forumdiskusi";
 import Isiblog from "./pages/Isiblog";
 import IsiblogA from "./pages/IsiblogA";
 import Listblog from "./pages/Listblog";

@@ -52,7 +52,7 @@ const Forumdiskusi = () => {
       </div>
       <section id="forum-diskusi">
         <div className="forum-diskusi-text">
-          <h1><b>Discussion Forum </b></h1>
+          <h1><b>Discussion Forum</b></h1>
         </div>
       </section>
       <div className="forum-container">
